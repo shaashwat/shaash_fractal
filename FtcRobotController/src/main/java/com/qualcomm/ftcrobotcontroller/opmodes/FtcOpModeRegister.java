@@ -55,5 +55,6 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register("Autonomous", AutonomousTest.class);
     manager.register("TestSelector", TestSelector.class);
     manager.register("Shaash's Test", ShaashOp.class);
+    manager.register("Shaash's Autonomous", LineFollowWall.class);
   }
 }
