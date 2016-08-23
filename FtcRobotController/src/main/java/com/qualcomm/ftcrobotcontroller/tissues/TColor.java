@@ -26,7 +26,6 @@ public class TColor implements Component {
         this.calibrate();
     }
 
-
     /**
      * Sets gain
      * @param gain
@@ -88,7 +87,6 @@ public class TColor implements Component {
         offsetBlue = colorsensor.blueColor();
         offsetAlpha = colorsensor.clearColor();
     }
-
     public Boolean test() {
         Logger.logLine("r:" + this.red() + " g:" + this.green() + " b:" + this.blue());
         return true;

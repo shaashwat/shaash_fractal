@@ -80,8 +80,8 @@ public class Instruments extends Thread {
         /*color.RED = colorsensor.red();
         color.BLUE = colorsensor.red();
         color.GREEN = colorsensor.red();
-        color.ALPHA = colorsensor.alpha();*/
-
+        color.ALPHA = colorsensor.alpha();
+        */
         distance = ultrasensor.distance();
         yaw = imusensor.getYaw();
     }
